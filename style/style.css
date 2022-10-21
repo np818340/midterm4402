@@ -21,18 +21,20 @@ body {
 
   .grid-menu {
 	display: grid;
-    grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: repeat(2, 1fr);
 	grid-gap: 10px;
 }
 
 .item {
 	padding: 5px;
-    margin: 5px;
+  margin: 5px;
+ 
 }
 .item-name{
   color: rgb(109, 85, 57);
-  
+  position: inherit;
+  width:200px;
 }
 
 .btn{
