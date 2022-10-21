@@ -30,6 +30,11 @@ body {
 	padding: 5px;
     margin: 5px;
 }
+.item-name{
+  color: rgb(109, 85, 57);
+  
+}
+
 .btn{
    margin-top: 35px;
    border-radius: 5px; 
